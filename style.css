@@ -139,13 +139,11 @@ span {
 
 
 .hero-section {
-    background-image: url(71xHyqBwdcL._SX3000_\ \ main\ img.jpg);
-    height: 400px;
+    background-image: url(images/heroimg.jpg);
+    height: 600px;
     width: 100%;
     background-size: cover;
-    justify-content: center;
-    justify-items: center;
-    display: flex;
+   
 }
 
 .hero-sectionmsg {
@@ -168,7 +166,7 @@ span {
 }
 
 .boxsection {
-    margin-top: 20px;
+    margin-top:10px;
     height: 1600px;
     background-color: #f0eeee;
     display: flex;
@@ -179,7 +177,7 @@ span {
 
 .box {
     margin-top: 20px;
-
+box-shadow: 0.5px 0.5px 0.5px 0.5px;
 }
 
 .box1 {
@@ -339,25 +337,28 @@ span {
     text-align: center;
     size: 1rem;
 }
+.box9 {
+    height: 500px;
+    width: 350px;
+    background-color: white;
 
+}
 
+.boxcontent9 {
+    color: black;
+    padding-left: 15px;
+    padding-top: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.boximg9 {
+    margin-top: 40px;
+    text-align: center;
+    size: 1rem;
+}
 
 .ptag1 {
     position: relative;
-    top: 150px;
+    top: 110px;
     text-align: center;
 }
 
@@ -402,6 +403,12 @@ span {
     top: 50px;
     text-align: center;
 }
+.ptag9 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
 
 .box:hover {
     transform: scale(0.9);
